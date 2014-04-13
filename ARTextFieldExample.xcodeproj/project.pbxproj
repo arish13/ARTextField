@@ -22,9 +22,9 @@
 		7B59BCA118FB05F70046BCEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B59BC9F18FB05F70046BCEE /* InfoPlist.strings */; };
 		7B59BCA318FB05F70046BCEE /* ARTextFieldExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCA218FB05F70046BCEE /* ARTextFieldExampleTests.m */; };
 		7B59BCAE18FB06180046BCEE /* ARTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCAD18FB06180046BCEE /* ARTextField.m */; };
-		7B59BCB218FB103E0046BCEE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCB118FB103E0046BCEE /* UIImage+ImageEffects.m */; };
-		7B59BCBA18FB10650046BCEE /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCB718FB10650046BCEE /* FBShimmeringLayer.m */; };
-		7B59BCBB18FB10650046BCEE /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCB918FB10650046BCEE /* FBShimmeringView.m */; };
+		7B59BCC118FB190B0046BCEE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCC018FB190B0046BCEE /* UIImage+ImageEffects.m */; };
+		7B59BCCB18FB19630046BCEE /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCC818FB19630046BCEE /* FBShimmeringLayer.m */; };
+		7B59BCCC18FB19630046BCEE /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCCA18FB19630046BCEE /* FBShimmeringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +59,14 @@
 		7B59BCA218FB05F70046BCEE /* ARTextFieldExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTextFieldExampleTests.m; sourceTree = "<group>"; };
 		7B59BCAC18FB06180046BCEE /* ARTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTextField.h; path = ARTextField/ARTextField.h; sourceTree = SOURCE_ROOT; };
 		7B59BCAD18FB06180046BCEE /* ARTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTextField.m; path = ARTextField/ARTextField.m; sourceTree = SOURCE_ROOT; };
-		7B59BCB018FB103E0046BCEE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		7B59BCB118FB103E0046BCEE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		7B59BCB418FB10650046BCEE /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
-		7B59BCB518FB10650046BCEE /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
-		7B59BCB618FB10650046BCEE /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
-		7B59BCB718FB10650046BCEE /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
-		7B59BCB818FB10650046BCEE /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
-		7B59BCB918FB10650046BCEE /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		7B59BCBF18FB190B0046BCEE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "ARTextField/UIImage+ImageEffects.h"; sourceTree = SOURCE_ROOT; };
+		7B59BCC018FB190B0046BCEE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "ARTextField/UIImage+ImageEffects.m"; sourceTree = SOURCE_ROOT; };
+		7B59BCC518FB19630046BCEE /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		7B59BCC618FB19630046BCEE /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		7B59BCC718FB19630046BCEE /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		7B59BCC818FB19630046BCEE /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		7B59BCC918FB19630046BCEE /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		7B59BCCA18FB19630046BCEE /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,27 +170,28 @@
 		7B59BCAF18FB061C0046BCEE /* ARTextField */ = {
 			isa = PBXGroup;
 			children = (
-				7B59BCB318FB10650046BCEE /* FBShimmering */,
-				7B59BCB018FB103E0046BCEE /* UIImage+ImageEffects.h */,
-				7B59BCB118FB103E0046BCEE /* UIImage+ImageEffects.m */,
+				7B59BCC418FB19630046BCEE /* FBShimmering */,
+				7B59BCBF18FB190B0046BCEE /* UIImage+ImageEffects.h */,
+				7B59BCC018FB190B0046BCEE /* UIImage+ImageEffects.m */,
 				7B59BCAC18FB06180046BCEE /* ARTextField.h */,
 				7B59BCAD18FB06180046BCEE /* ARTextField.m */,
 			);
 			name = ARTextField;
 			sourceTree = "<group>";
 		};
-		7B59BCB318FB10650046BCEE /* FBShimmering */ = {
+		7B59BCC418FB19630046BCEE /* FBShimmering */ = {
 			isa = PBXGroup;
 			children = (
-				7B59BCB418FB10650046BCEE /* FBShimmering-Prefix.pch */,
-				7B59BCB518FB10650046BCEE /* FBShimmering.h */,
-				7B59BCB618FB10650046BCEE /* FBShimmeringLayer.h */,
-				7B59BCB718FB10650046BCEE /* FBShimmeringLayer.m */,
-				7B59BCB818FB10650046BCEE /* FBShimmeringView.h */,
-				7B59BCB918FB10650046BCEE /* FBShimmeringView.m */,
+				7B59BCC518FB19630046BCEE /* FBShimmering-Prefix.pch */,
+				7B59BCC618FB19630046BCEE /* FBShimmering.h */,
+				7B59BCC718FB19630046BCEE /* FBShimmeringLayer.h */,
+				7B59BCC818FB19630046BCEE /* FBShimmeringLayer.m */,
+				7B59BCC918FB19630046BCEE /* FBShimmeringView.h */,
+				7B59BCCA18FB19630046BCEE /* FBShimmeringView.m */,
 			);
-			path = FBShimmering;
-			sourceTree = "<group>";
+			name = FBShimmering;
+			path = ARTextField/FBShimmering;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -290,10 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B59BCBA18FB10650046BCEE /* FBShimmeringLayer.m in Sources */,
+				7B59BCCB18FB19630046BCEE /* FBShimmeringLayer.m in Sources */,
 				7B59BCAE18FB06180046BCEE /* ARTextField.m in Sources */,
-				7B59BCB218FB103E0046BCEE /* UIImage+ImageEffects.m in Sources */,
-				7B59BCBB18FB10650046BCEE /* FBShimmeringView.m in Sources */,
+				7B59BCC118FB190B0046BCEE /* UIImage+ImageEffects.m in Sources */,
+				7B59BCCC18FB19630046BCEE /* FBShimmeringView.m in Sources */,
 				7B59BC8418FB05F70046BCEE /* main.m in Sources */,
 				7B59BC8E18FB05F70046BCEE /* ARViewController.m in Sources */,
 				7B59BC8818FB05F70046BCEE /* ARAppDelegate.m in Sources */,
@@ -501,6 +502,7 @@
 				7B59BCA818FB05F70046BCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B59BCA918FB05F70046BCEE /* Build configuration list for PBXNativeTarget "ARTextFieldExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +511,7 @@
 				7B59BCAB18FB05F70046BCEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
