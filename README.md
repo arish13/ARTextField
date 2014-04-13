@@ -11,6 +11,7 @@ Simply add via Interface Builder or add manually with designated init message:
 //Setup Validation Controls
     ARTextField* Email = [[ARTextField alloc] initWithValidationTypes:@[@(ARRequired), @(AREmail)] andValidationMessage:@"Sample Message" withValidationMessageType:AROnControl inFrame:rect];
     BOOL valid = [Email Validate];
+```
     
 ## License
 
