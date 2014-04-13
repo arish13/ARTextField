@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ARTextField.h"
 
 @interface ARViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet ARTextField *Email;
+@property (strong, nonatomic) IBOutlet ARTextField *Password;
+@property (strong, nonatomic) IBOutlet ARTextField *Confirm;
 
 @end
