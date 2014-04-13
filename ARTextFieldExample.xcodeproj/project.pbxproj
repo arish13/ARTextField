@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B59BC7818FB05F70046BCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC7718FB05F70046BCEE /* Foundation.framework */; };
+		7B59BC7A18FB05F70046BCEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC7918FB05F70046BCEE /* CoreGraphics.framework */; };
+		7B59BC7C18FB05F70046BCEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC7B18FB05F70046BCEE /* UIKit.framework */; };
+		7B59BC8218FB05F70046BCEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B59BC8018FB05F70046BCEE /* InfoPlist.strings */; };
+		7B59BC8418FB05F70046BCEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC8318FB05F70046BCEE /* main.m */; };
+		7B59BC8818FB05F70046BCEE /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC8718FB05F70046BCEE /* ARAppDelegate.m */; };
+		7B59BC8B18FB05F70046BCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B59BC8918FB05F70046BCEE /* Main.storyboard */; };
+		7B59BC8E18FB05F70046BCEE /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BC8D18FB05F70046BCEE /* ARViewController.m */; };
+		7B59BC9018FB05F70046BCEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B59BC8F18FB05F70046BCEE /* Images.xcassets */; };
+		7B59BC9718FB05F70046BCEE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC9618FB05F70046BCEE /* XCTest.framework */; };
+		7B59BC9818FB05F70046BCEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC7718FB05F70046BCEE /* Foundation.framework */; };
+		7B59BC9918FB05F70046BCEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B59BC7B18FB05F70046BCEE /* UIKit.framework */; };
+		7B59BCA118FB05F70046BCEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B59BC9F18FB05F70046BCEE /* InfoPlist.strings */; };
+		7B59BCA318FB05F70046BCEE /* ARTextFieldExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59BCA218FB05F70046BCEE /* ARTextFieldExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B59BC9A18FB05F70046BCEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B59BC6C18FB05F70046BCEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B59BC7318FB05F70046BCEE;
+			remoteInfo = ARTextFieldExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B59BC7418FB05F70046BCEE /* ARTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B59BC7718FB05F70046BCEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B59BC7918FB05F70046BCEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B59BC7B18FB05F70046BCEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B59BC7F18FB05F70046BCEE /* ARTextFieldExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTextFieldExample-Info.plist"; sourceTree = "<group>"; };
+		7B59BC8118FB05F70046BCEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B59BC8318FB05F70046BCEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B59BC8518FB05F70046BCEE /* ARTextFieldExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARTextFieldExample-Prefix.pch"; sourceTree = "<group>"; };
+		7B59BC8618FB05F70046BCEE /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		7B59BC8718FB05F70046BCEE /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		7B59BC8A18FB05F70046BCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B59BC8C18FB05F70046BCEE /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		7B59BC8D18FB05F70046BCEE /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		7B59BC8F18FB05F70046BCEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B59BC9518FB05F70046BCEE /* ARTextFieldExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTextFieldExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B59BC9618FB05F70046BCEE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B59BC9E18FB05F70046BCEE /* ARTextFieldExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARTextFieldExampleTests-Info.plist"; sourceTree = "<group>"; };
+		7B59BCA018FB05F70046BCEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B59BCA218FB05F70046BCEE /* ARTextFieldExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTextFieldExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B59BC7118FB05F70046BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BC7A18FB05F70046BCEE /* CoreGraphics.framework in Frameworks */,
+				7B59BC7C18FB05F70046BCEE /* UIKit.framework in Frameworks */,
+				7B59BC7818FB05F70046BCEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B59BC9218FB05F70046BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BC9718FB05F70046BCEE /* XCTest.framework in Frameworks */,
+				7B59BC9918FB05F70046BCEE /* UIKit.framework in Frameworks */,
+				7B59BC9818FB05F70046BCEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B59BC6B18FB05F70046BCEE = {
+			isa = PBXGroup;
+			children = (
+				7B59BC7D18FB05F70046BCEE /* ARTextFieldExample */,
+				7B59BC9C18FB05F70046BCEE /* ARTextFieldExampleTests */,
+				7B59BC7618FB05F70046BCEE /* Frameworks */,
+				7B59BC7518FB05F70046BCEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B59BC7518FB05F70046BCEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BC7418FB05F70046BCEE /* ARTextFieldExample.app */,
+				7B59BC9518FB05F70046BCEE /* ARTextFieldExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B59BC7618FB05F70046BCEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BC7718FB05F70046BCEE /* Foundation.framework */,
+				7B59BC7918FB05F70046BCEE /* CoreGraphics.framework */,
+				7B59BC7B18FB05F70046BCEE /* UIKit.framework */,
+				7B59BC9618FB05F70046BCEE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B59BC7D18FB05F70046BCEE /* ARTextFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BC8618FB05F70046BCEE /* ARAppDelegate.h */,
+				7B59BC8718FB05F70046BCEE /* ARAppDelegate.m */,
+				7B59BC8918FB05F70046BCEE /* Main.storyboard */,
+				7B59BC8C18FB05F70046BCEE /* ARViewController.h */,
+				7B59BC8D18FB05F70046BCEE /* ARViewController.m */,
+				7B59BC8F18FB05F70046BCEE /* Images.xcassets */,
+				7B59BC7E18FB05F70046BCEE /* Supporting Files */,
+			);
+			path = ARTextFieldExample;
+			sourceTree = "<group>";
+		};
+		7B59BC7E18FB05F70046BCEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BC7F18FB05F70046BCEE /* ARTextFieldExample-Info.plist */,
+				7B59BC8018FB05F70046BCEE /* InfoPlist.strings */,
+				7B59BC8318FB05F70046BCEE /* main.m */,
+				7B59BC8518FB05F70046BCEE /* ARTextFieldExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B59BC9C18FB05F70046BCEE /* ARTextFieldExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BCA218FB05F70046BCEE /* ARTextFieldExampleTests.m */,
+				7B59BC9D18FB05F70046BCEE /* Supporting Files */,
+			);
+			path = ARTextFieldExampleTests;
+			sourceTree = "<group>";
+		};
+		7B59BC9D18FB05F70046BCEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B59BC9E18FB05F70046BCEE /* ARTextFieldExampleTests-Info.plist */,
+				7B59BC9F18FB05F70046BCEE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B59BC7318FB05F70046BCEE /* ARTextFieldExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B59BCA618FB05F70046BCEE /* Build configuration list for PBXNativeTarget "ARTextFieldExample" */;
+			buildPhases = (
+				7B59BC7018FB05F70046BCEE /* Sources */,
+				7B59BC7118FB05F70046BCEE /* Frameworks */,
+				7B59BC7218FB05F70046BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARTextFieldExample;
+			productName = ARTextFieldExample;
+			productReference = 7B59BC7418FB05F70046BCEE /* ARTextFieldExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B59BC9418FB05F70046BCEE /* ARTextFieldExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B59BCA918FB05F70046BCEE /* Build configuration list for PBXNativeTarget "ARTextFieldExampleTests" */;
+			buildPhases = (
+				7B59BC9118FB05F70046BCEE /* Sources */,
+				7B59BC9218FB05F70046BCEE /* Frameworks */,
+				7B59BC9318FB05F70046BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B59BC9B18FB05F70046BCEE /* PBXTargetDependency */,
+			);
+			name = ARTextFieldExampleTests;
+			productName = ARTextFieldExampleTests;
+			productReference = 7B59BC9518FB05F70046BCEE /* ARTextFieldExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B59BC6C18FB05F70046BCEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Arish;
+				TargetAttributes = {
+					7B59BC9418FB05F70046BCEE = {
+						TestTargetID = 7B59BC7318FB05F70046BCEE;
+					};
+				};
+			};
+			buildConfigurationList = 7B59BC6F18FB05F70046BCEE /* Build configuration list for PBXProject "ARTextFieldExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B59BC6B18FB05F70046BCEE;
+			productRefGroup = 7B59BC7518FB05F70046BCEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B59BC7318FB05F70046BCEE /* ARTextFieldExample */,
+				7B59BC9418FB05F70046BCEE /* ARTextFieldExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B59BC7218FB05F70046BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BC9018FB05F70046BCEE /* Images.xcassets in Resources */,
+				7B59BC8218FB05F70046BCEE /* InfoPlist.strings in Resources */,
+				7B59BC8B18FB05F70046BCEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B59BC9318FB05F70046BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BCA118FB05F70046BCEE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B59BC7018FB05F70046BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BC8418FB05F70046BCEE /* main.m in Sources */,
+				7B59BC8E18FB05F70046BCEE /* ARViewController.m in Sources */,
+				7B59BC8818FB05F70046BCEE /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B59BC9118FB05F70046BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B59BCA318FB05F70046BCEE /* ARTextFieldExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B59BC9B18FB05F70046BCEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B59BC7318FB05F70046BCEE /* ARTextFieldExample */;
+			targetProxy = 7B59BC9A18FB05F70046BCEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B59BC8018FB05F70046BCEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B59BC8118FB05F70046BCEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B59BC8918FB05F70046BCEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B59BC8A18FB05F70046BCEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B59BC9F18FB05F70046BCEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B59BCA018FB05F70046BCEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B59BCA418FB05F70046BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B59BCA518FB05F70046BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B59BCA718FB05F70046BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTextFieldExample/ARTextFieldExample-Prefix.pch";
+				INFOPLIST_FILE = "ARTextFieldExample/ARTextFieldExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B59BCA818FB05F70046BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTextFieldExample/ARTextFieldExample-Prefix.pch";
+				INFOPLIST_FILE = "ARTextFieldExample/ARTextFieldExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B59BCAA18FB05F70046BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARTextFieldExample.app/ARTextFieldExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTextFieldExample/ARTextFieldExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARTextFieldExampleTests/ARTextFieldExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B59BCAB18FB05F70046BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ARTextFieldExample.app/ARTextFieldExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARTextFieldExample/ARTextFieldExample-Prefix.pch";
+				INFOPLIST_FILE = "ARTextFieldExampleTests/ARTextFieldExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B59BC6F18FB05F70046BCEE /* Build configuration list for PBXProject "ARTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B59BCA418FB05F70046BCEE /* Debug */,
+				7B59BCA518FB05F70046BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B59BCA618FB05F70046BCEE /* Build configuration list for PBXNativeTarget "ARTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B59BCA718FB05F70046BCEE /* Debug */,
+				7B59BCA818FB05F70046BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B59BCA918FB05F70046BCEE /* Build configuration list for PBXNativeTarget "ARTextFieldExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B59BCAA18FB05F70046BCEE /* Debug */,
+				7B59BCAB18FB05F70046BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B59BC6C18FB05F70046BCEE /* Project object */;
+}
